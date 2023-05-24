@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:views="clr-namespace:App3.Views" 
+             x:Class="App3.Views.Personalize">
+
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Username:" />
+            <Label Text="{Binding Username}" />
+            <Label Text="Email:" />
+            <Label Text="{Binding Email}" />
+            <Label Text="Meat:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Meat}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="kob"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="Fish:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Fish}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="kof"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="Shopping:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Shopping}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="fsd"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>Daily</x:String>
+                        <x:String>Weekly</x:String>
+                        <x:String>Fortnightly</x:String>
+                        <x:String>Monthly</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="Milk:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Milk}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="mpw"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="Loathes:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Loathes}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="lpw"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="Eggs:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Eggs}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="doe"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="Vegetables:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Vegetables}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="kov"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <Label Text="Fruit:" />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding Fruit}" />
+                <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="koy"  TextColor="Gray">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <!-- Add pickers for the other fields here -->
+            <Button Text="Update" Clicked="ButtonIsClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Views.FoodToExclude">
+    <ContentPage.Content>
+        <TableView HorizontalOptions="Center" VerticalOptions="Center">
+                <TableRoot>
+                    <TableSection>
+                        <SwitchCell Text="Avocado" x:Name="Av"  On="True" />
+                        <SwitchCell Text="Black bean" x:Name="Bb"  On="True" />
+                        <SwitchCell Text="Bok choy" x:Name="Bk"  On="True" />
+                        <SwitchCell Text="Broccoli" x:Name="Br"  On="True" />
+                        <SwitchCell Text="Brocollini" x:Name="Bri"  On="True" />
+                        <SwitchCell Text="Brussel sprouts" x:Name="Bs"  On="True" />
+                        <SwitchCell Text="Cabbage" x:Name="Ca"  On="True" />
+                        <SwitchCell Text="Capsicum" x:Name="Cp"  On="True" />
+                        <SwitchCell Text="Carrot" x:Name="Cr"  On="True" />
+                        <SwitchCell Text="Cauliflower" x:Name="Cu"  On="True" />
+                        <SwitchCell Text="Celery" x:Name="Ce"  On="True" />
+                        <SwitchCell Text="Chicory" x:Name="Ch"  On="True" />
+                        <SwitchCell Text="Chinese cabbage" x:Name="Cc"  On="True" />
+                        <SwitchCell Text="Chinese spinach" x:Name="Cs"  On="True" />
+                        <SwitchCell Text="Collard greens" x:Name="Cg"  On="True" />
+                        <SwitchCell Text="Cucumber" x:Name="Cb"  On="True" />
+                        <SwitchCell Text="Dill" x:Name="Di"  On="True" />
+                        <SwitchCell Text="Edamame" x:Name="Ed"  On="True" />
+                        <SwitchCell Text="Eggplant" x:Name="Eg"  On="True" />
+                        <SwitchCell Text="Elephant garlic" x:Name="El"  On="True" />
+                        <SwitchCell Text="Endive" x:Name="En"  On="True" />
+                        <SwitchCell Text="Frisee lettuce" x:Name="Fl"  On="True" />
+                        <SwitchCell Text="Garlic" x:Name="Ga"  On="True" />
+                        <SwitchCell Text="Ginger" x:Name="Gi"  On="True" />
+                        <SwitchCell Text="Green bean" x:Name="Gb"  On="True" />
+                        <SwitchCell Text="Green onion" x:Name="Go"  On="True" />
+                        <SwitchCell Text="Horseradish" x:Name="Hr"  On="True" />
+                        <SwitchCell Text="Iceberg lettuce" x:Name="Il"  On="True" />
+                        <SwitchCell Text="Kale" x:Name="Ka"  On="True" />
+                        <SwitchCell Text="Leek" x:Name="Lk"  On="True" />
+                        <SwitchCell Text="Lentil" x:Name="Ll"  On="True" />
+                        <SwitchCell Text="Lettuce" x:Name="Lt"  On="True" />
+                        <SwitchCell Text="Lima bean" x:Name="Lb"  On="True" />
+                        <SwitchCell Text="Long bean" x:Name="Ln"  On="True" />
+                        <SwitchCell Text="Malabar spinach" x:Name="Ms"  On="True" />
+                        <SwitchCell Text="Mangetout bean" x:Name="Mb"  On="True" />
+                        <SwitchCell Text="Mizuna" x:Name="Mz"  On="True" />
+                        <SwitchCell Text="Mushroom" x:Name="Mu"  On="True" />
+                        <SwitchCell Text="Mustard green" x:Name="Mg"  On="True" />
+                        <SwitchCell Text="Napa cabbage" x:Name="Nc"  On="True" />
+                        <SwitchCell Text="Onion" x:Name="On"  On="True" />
+                        <SwitchCell Text="Parsley" x:Name="Pa"  On="True" />
+                        <SwitchCell Text="Parsnip" x:Name="Pp"  On="True" />
+                        <SwitchCell Text="Pea" x:Name="Pe"  On="True" />
+                        <SwitchCell Text="Peanut" x:Name="Pn"  On="True" />
+                        <SwitchCell Text="Pearl onion" x:Name="Po"  On="True" />
+                        <SwitchCell Text="Pinto bean" x:Name="Pb"  On="True" />
+                        <SwitchCell Text="Potato" x:Name="Pt"  On="True" />
+                        <SwitchCell Text="Pumpkin" x:Name="Pk"  On="True" />
+                        <SwitchCell Text="Radicchio" x:Name="Ra"  On="True" />
+                        <SwitchCell Text="Radish" x:Name="Rs"  On="True" />
+                        <SwitchCell Text="Rocket" x:Name="Rk"  On="True" />
+                        <SwitchCell Text="Shallot" x:Name="Sh"  On="True" />
+                        <SwitchCell Text="Silverbeet" x:Name="Si"  On="True" />
+                        <SwitchCell Text="Snow pea" x:Name="Sn"  On="True" />
+                        <SwitchCell Text="Sorrel" x:Name="Sl"  On="True" />
+                        <SwitchCell Text="Soybean" x:Name="Sb"  On="True" />
+                        <SwitchCell Text="Spinach" x:Name="Sp"  On="True" />
+                        <SwitchCell Text="Squash" x:Name="Sq"  On="True" />
+                        <SwitchCell Text="Sweet potato" x:Name="Sw"  On="True" />
+                        <SwitchCell Text="Tatsoi" x:Name="Ta"  On="True" />
+                        <SwitchCell Text="Tomato" x:Name="To"  On="True" />
+                        <SwitchCell Text="Turnip" x:Name="Tu"  On="True" />
+                        <SwitchCell Text="Urad bean" x:Name="Ub"  On="True" />
+                        <SwitchCell Text="Watercress" x:Name="Wc"  On="True" />
+                        <SwitchCell Text="Yellow squash" x:Name="Ys"  On="True" />
+                        <SwitchCell Text="Zucchini" x:Name="Zu"  On="True" />
+
+                </TableSection>     
+                </TableRoot>
+        </TableView>
+
+    </ContentPage.Content>
+</ContentPage>

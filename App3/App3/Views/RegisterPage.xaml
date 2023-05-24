@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Views.RegisterPage"
+             xmlns:pcview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="Margin" Value="20"/>
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="FontSize" Value="Body"/>
+            <Setter Property="TextColor" Value="Brown"/>
+            <Setter Property="Margin" Value="20"/>
+        </Style>
+        <Style TargetType="Picker">
+            <Setter Property="TitleColor" Value="Gray"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <pcview:PancakeView x:Name="pc">
+                <StackLayout>
+
+                    <Label Text="Don't forget milk" x:Name="label"/>
+                    <Entry Placeholder="username" x:Name="usr"/>
+                    <Entry Placeholder="Enter your email" x:Name="eml"/>
+                    <Entry Placeholder="Enter a password" x:Name="psw" IsPassword="True"/>
+                    <Entry Placeholder="Re-enter a password" x:Name="rsw" IsPassword="True"/>
+                    <Picker Grid.Column="0" Title="Shopping frequency" x:Name="fsd">
+                        <Picker.Items>
+                            <x:String>Daily</x:String>
+                            <x:String>Bi-weekly</x:String>
+                            <x:String>Weekly</x:String>
+                            <x:String>Fortnightly</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <Picker Grid.Column="0" Title="Letres of milk per week" x:Name="mpw">
+                        <Picker.Items>
+                            <x:String>1kgs</x:String>
+                            <x:String>2kgs</x:String>
+                            <x:String>3kgs</x:String>
+                            <x:String>4kgs</x:String>
+                            <x:String>5kgs</x:String>
+                            <x:String>6kgs</x:String>
+
+                        </Picker.Items>
+                    </Picker>
+                    <Picker Grid.Column="0" Title="Loathes of bread per week" x:Name="lpw">
+                        <Picker.Items>
+                            <x:String>1kgs</x:String>
+                            <x:String>2kgs</x:String>
+                            <x:String>3kgs</x:String>
+                            <x:String>4kgs</x:String>
+                            <x:String>5kgs</x:String>
+                            <x:String>6kgs</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker Grid.Column="0" Title="Kilos of meat per week" x:Name="kob">
+                        <Picker.Items>
+                            <x:String>1kgs</x:String>
+                            <x:String>2kgs</x:String>
+                            <x:String>3kgs</x:String>
+                            <x:String>4kgs</x:String>
+                            <x:String>5kgs</x:String>
+                            <x:String>6kgs</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker Grid.Column="0" Title="Kilos of fish per week" x:Name="kof"  TextColor="Gray">
+                        <Picker.Items>
+                            <x:String>1kgs</x:String>
+                            <x:String>2kgs</x:String>
+                            <x:String>3kgs</x:String>
+                            <x:String>4kgs</x:String>
+                            <x:String>5kgs</x:String>
+                            <x:String>6kgs</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker Grid.Column="0" Title="How many dozens of eggs per week" x:Name="doe"  TextColor="Gray">
+                        <Picker.Items>
+                            <x:String>1kgs</x:String>
+                            <x:String>2kgs</x:String>
+                            <x:String>3kgs</x:String>
+                            <x:String>4kgs</x:String>
+                            <x:String>5kgs</x:String>
+                            <x:String>6kgs</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker Grid.Column="0" Title="Kilos of vegetables per week" x:Name="kov"  TextColor="Gray">
+                        <Picker.Items>
+                            <x:String>1kgs</x:String>
+                            <x:String>2kgs</x:String>
+                            <x:String>3kgs</x:String>
+                            <x:String>4kgs</x:String>
+                            <x:String>5kgs</x:String>
+                            <x:String>6kgs</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker Grid.Column="0" Title="Kilos of fruit per week" x:Name="koy"  TextColor="Gray">
+                        <Picker.Items>
+                            <x:String>1kgs</x:String>
+                            <x:String>2kgs</x:String>
+                            <x:String>3kgs</x:String>
+                            <x:String>4kgs</x:String>
+                            <x:String>5kgs</x:String>
+                            <x:String>6kgs</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                    <Button Text="Enter" Clicked="ButtonIsClicked" Margin="20" BackgroundColor="BurlyWood"/>
+                </StackLayout>
+            </pcview:PancakeView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Views.ManualAdd">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <Label Text="Manual add groceries to your list" x:Name="label" FontSize="Large" Margin="20" />
+                <Entry Placeholder="Add grocery you'd like to add your list" x:Name="entry_name" FontSize="Body" TextColor="Brown" Margin="20" />
+                <Button Text="Add groceries to list" Clicked="ButtonIsClicked" Margin="20" BackgroundColor="BurlyWood"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
